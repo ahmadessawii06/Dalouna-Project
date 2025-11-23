@@ -29,7 +29,6 @@ The project demonstrates strong use of semantic HTML structure and responsive de
 
 ---
 
-
 ## ✨ Features
 
 - Fully responsive layout  
@@ -38,6 +37,13 @@ The project demonstrates strong use of semantic HTML structure and responsive de
 - Semantic HTML tags  
 - Structured menu categories  
 - Footer with GitHub link  
+
+---
+
+## 🌐 Live Preview
+
+You can view the live website here:  
+[Dalouna Restaurant Live Preview](https://ahmadessawii06.github.io/Dalouna-Project/)
 
 ---
 
