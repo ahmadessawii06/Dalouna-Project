@@ -1,0 +1,901 @@
+/* 
+ css/styles.css 
+ Student Name: Ahmad Essawii
+ Student Id: 12429664
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(251, 248, 242);
+  font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica;
+}
+
+.navidv {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  font-weight: bold;
+  background-color: rgb(250, 246, 241);
+  font-family: "Rubik", sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+}
+
+.logo a {
+  padding-left: 126px;
+  font-size: 16px;
+  color: rgb(33, 104, 105);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(33, 104, 105);
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+li:nth-child(5) a {
+  padding-right: 126px;
+}
+
+.bg {
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  width: 100%;
+  height: 604px;
+  margin-bottom: 15px;
+}
+
+.hero {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+.Med-p {
+  position: absolute;
+  top: calc(50% - 95px);
+  left: 50%;
+  transform: translate(-50%, -70%);
+  font-size: 14px;
+  font-family: Rubik;
+  color: hwb(0 12% 88%);
+  background-color: #49a078;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 120px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.welcome-p {
+  position: absolute;
+  top: calc(48% - 90px);
+  left: 50%;
+  transform: translate(-50%, 65%);
+  font-size: 50px;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.Homestyle-p {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  top: calc(50% - 95px);
+  left: 50%;
+  transform: translate(-50%, 200%);
+  color: white;
+  width: 750px;
+  text-align: center;
+}
+
+.view-btn {
+  width: 95;
+  color: white;
+  background-color: rgb(33, 104, 105);
+  font-weight: bold;
+  border-style: none;
+  border-radius: 80px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: calc(50% - 95px);
+  left: 50%;
+  transform: translate(-50%, 300%);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.view-btn:hover {
+  background-color: white;
+  color: rgb(33, 104, 105);
+  border: solid 1px rgb(33, 104, 105);
+}
+
+.MainFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0px;
+  margin-bottom: 80px;
+}
+
+.MainFlex-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0px;
+  margin-bottom: 40px;
+  max-width: 1500px;
+  margin: 40px auto;
+}
+
+.MainFlex-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 130px;
+}
+
+.MainFlex-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.h1-about,
+.hh1-about {
+  font-family: "Rubik";
+}
+
+.Menu-Highlights {
+  text-align: center;
+  margin-right: 760px;
+  font-family: "Rubik";
+  position: relative;
+  top: 20px;
+}
+
+.Taxes {
+  color: gray;
+  text-align: center;
+  margin-right: 760px;
+  font-family: "Rubik";
+  position: relative;
+  right: 40px;
+  bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.BoxOne {
+  border: 1px #e5e7eb solid;
+  background-color: white;
+  border-radius: 15px;
+  width: 475px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.BoxTwo {
+  border: 1px #e5e7eb solid;
+  background-color: white;
+  border-radius: 15px;
+  width: 475px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.BoxOneP {
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.ColorGrey {
+  font-family: "Rubik";
+  font-weight: 400;
+  width: 500px;
+  line-height: 25px;
+  color: gray;
+}
+
+.pp1-We {
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 410px;
+}
+
+.ThreeP {
+  display: flex;
+  gap: 10px;
+}
+
+.ThreeP p {
+  font-family: "Rubik";
+  border: solid 2px #e5e7eb;
+  border-radius: 20px;
+  font-size: 12px;
+  padding-right: 7px;
+  padding-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.BoxThree {
+  border: 1px #e5e7eb solid;
+  background-color: white;
+  border-radius: 15px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333;
+  font-family: "Rubik";
+}
+
+.price {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  position: relative;
+}
+
+.price h3 {
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 2px;
+}
+
+.price-color {
+  color: #008060;
+  font-weight: bold;
+}
+
+.DottedLine {
+  border: none;
+  border-top: 1px dotted #ccc;
+  width: 100%;
+  position: relative;
+  bottom: 16px;
+  margin: 20px 0px;
+}
+
+.BoxFour {
+  font-family: "Rubik";
+  border: 1px #e5e7eb solid;
+  background-color: white;
+  border-radius: 15px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.mmm {
+  font-weight: 500;
+  color: #777;
+  font-size: 13px;
+  margin-top: 0;
+  line-height: 1;
+  margin-bottom: 8px;
+  position: relative;
+  bottom: 10px;
+}
+
+.mmm-3 {
+  font-weight: 500;
+  color: #777;
+  font-size: 13px;
+  margin-top: 0;
+  line-height: 1;
+  position: relative;
+  bottom: 10px;
+  width: 250px;
+  line-height: 20px;
+}
+
+.mmm-4 {
+  font-weight: 500;
+  color: #777;
+  font-size: 13px;
+  margin-top: 0;
+  line-height: 1;
+  margin-bottom: 8px;
+  position: relative;
+  bottom: 10px;
+  width: 250px;
+  line-height: 20px;
+}
+
+.BoxFive {
+  font-family: "Rubik";
+  border: 1px #e5e7eb solid;
+  background-color: white;
+  border-radius: 15px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.Sec2InBox4 {
+  position: relative;
+  bottom: 35px;
+}
+
+.Sec3InBox4 {
+  position: relative;
+  bottom: 67px;
+}
+
+.Sec2InBox3 {
+  position: relative;
+  bottom: 38px;
+}
+
+.Sec3InBox3 {
+  position: relative;
+  bottom: 77px;
+}
+
+.Sec2InBox5 {
+  position: relative;
+  bottom: 35px;
+}
+
+.Sec3InBox5 {
+  position: relative;
+  bottom: 68px;
+}
+
+.BoxThree,
+.BoxFour,
+.BoxFive {
+  height: 350px;
+}
+
+.Call {
+  line-height: 2.5;
+  font-family: "Rubik";
+}
+
+.span-num {
+  font-weight: bold;
+}
+
+.span-email {
+  color: rgb(33, 104, 105);
+}
+
+.span-email:hover {
+  text-decoration: underline rgb(33, 104, 105);
+  cursor: pointer;
+}
+
+.span-grey {
+  font-family: "Rubik";
+  color: grey;
+}
+
+.Mon-Thi p,
+.Fir p,
+.Sat p,
+.Sun p {
+  font-family: "Rubik";
+  font-weight: 500;
+}
+
+.Time {
+  display: inline;
+  align-items: baseline;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgba(157, 255, 0, 0.61);
+}
+
+.Day {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  position: relative;
+  background-color: red;
+}
+
+.BoxSix {
+  border: 1px #e5e7eb solid;
+  background-color: white;
+  border-radius: 15px;
+  width: 475px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.BoxSix .Sec1InBox6 .price h3,
+.BoxSix .Sec2InBox6 .price h3,
+.BoxSix .Sec3InBox6 .price h3,
+.BoxSix .Sec4InBox6 .price h3 {
+  font-weight: 400;
+}
+
+.Sec2InBox6 {
+  position: relative;
+  bottom: 40px;
+}
+
+.Sec3InBox6 {
+  position: relative;
+  bottom: 80px;
+}
+
+.Sec4InBox6 {
+  position: relative;
+  bottom: 120px;
+}
+
+.BoxSix {
+  height: 300px;
+}
+
+.Timing {
+  font-family: "Rubik";
+}
+
+.BoxeSeven {
+  border: 1px #e5e7eb solid;
+  background-color: white;
+  border-radius: 15px;
+  width: 475px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.BoxEight {
+  border: 1px #e5e7eb solid;
+  background-color: white;
+  border-radius: 15px;
+  width: 475px;
+  padding: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333;
+}
+
+.BoxNine {
+  position: relative;
+  border: 1px #e5e7eb solid;
+  background-color: white;
+  border-radius: 15px;
+  width: 475px;
+  height: 190px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #333;
+  overflow: hidden;
+}
+
+.BoxNine img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  z-index: 0;
+}
+
+.Old {
+  font-family: "rubik";
+  width: 300px;
+  line-height: 2;
+}
+
+.site-footer-site-12429664 {
+  font-family: "rubik";
+}
+
+.Footer-p {
+  text-align: center;
+  color: grey;
+}
+
+.Name {
+  color: #008060;
+  font-weight: bold;
+}
+
+.github {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(33, 104, 105);
+}
+
+.github a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#menu-id::before,
+#h1-about::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+}
+
+#hours-id::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+}
+
+#find-us-id::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+}
+
+#contact-id::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+}
+
+.Ahmad {
+  color: rgb(33, 104, 105);
+}
+
+.Linke {
+  text-decoration: underline;
+}
+
+.github a {
+  text-decoration: underline;
+}
+
+.github a:hover {
+  font-size: large;
+}
+
+.lists a:hover {
+  background-color: #216869;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(33, 104, 105, 0.5);
+  padding: 10px;
+  transition: all 0.25s;
+}
+
+li:nth-child(5) a:hover {
+  padding-right: 120px;
+}
+
+.logo a:hover {
+  cursor: default;
+}
+
+.MainFlex .BoxOne:hover,
+.MainFlex .BoxTwo:hover,
+.MainFlex-2 .BoxThree:hover,
+.MainFlex-2 .BoxFour:hover,
+.BoxFive:hover,
+.MainFlex-3 .BoxSix:hover,
+.MainFlex-3 .BoxOne:hover,
+.MainFlex-3 .BoxEight:hover,
+.MainFlex-3 .BoxNine:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 765px) {
+  /* Navigation */
+  .navidv {
+    padding-right: 10px;
+    padding-left: 10px;
+    height: auto;
+    min-height: 60px;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .logo a {
+    padding-left: 0;
+    font-size: 20px;
+  }
+
+  .lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+  }
+
+  li {
+    margin: 0;
+  }
+
+  li a {
+    font-size: 14px;
+    margin-right: 0;
+    padding: 8px 12px;
+  }
+
+  li:nth-child(5) a {
+    padding-right: 12px;
+  }
+
+  li:nth-child(5) a:hover {
+    padding-right: 12px;
+  }
+
+  .bg {
+    height: 400px;
+  }
+
+  .Med-p {
+    font-size: 14px;
+    padding: 6px 10px;
+    white-space: nowrap;
+    width: 280px;
+    position: relative;
+    bottom: 260px;
+  }
+
+  .welcome-p {
+    font-size: 32px;
+    white-space: nowrap;
+  }
+
+  .Homestyle-p {
+    font-size: 14px;
+    width: 350px;
+    max-width: 350px;
+    padding: 0 10px;
+    position: relative;
+    bottom: 330px;
+  }
+
+  .view-btn {
+    padding: 15px 25px;
+    font-size: 14px;
+  }
+
+  .BoxOne,
+  .BoxTwo,
+  .BoxThree,
+  .BoxFour,
+  .BoxFive,
+  .BoxSix,
+  .BoxEight,
+  .BoxNine {
+    width: calc(100% - 40px);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .BoxThree,
+  .BoxFour,
+  .BoxFive {
+    height: auto;
+  }
+
+  .BoxSix {
+    height: auto;
+  }
+
+  .ColorGrey,
+  .pp1-We {
+    width: 100%;
+  }
+
+  .ThreeP {
+    flex-wrap: wrap;
+  }
+
+  .Menu-Highlights {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .Taxes {
+    margin-right: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .MainFlex,
+  .MainFlex-2,
+  .MainFlex-3 {
+    margin: 20px 10px;
+    gap: 15px;
+  }
+
+  .MainFlex-2 {
+    max-width: 100%;
+  }
+
+  .Old {
+    width: 100%;
+  }
+
+  .BoxNine {
+    height: 250px;
+  }
+
+  .Footer-p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .Sec2InBox4,
+  .Sec3InBox4,
+  .Sec2InBox3,
+  .Sec3InBox3,
+  .Sec2InBox5,
+  .Sec3InBox5,
+  .Sec2InBox6,
+  .Sec3InBox6,
+  .Sec4InBox6 {
+    position: static;
+  }
+
+  .lists a:hover {
+    padding: 8px 12px;
+  }
+
+  .github a:hover {
+    font-size: inherit;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .logo a {
+    padding-left: 40px;
+  }
+
+  li:nth-child(5) a {
+    padding-right: 40px;
+  }
+
+  li:nth-child(5) a:hover {
+    padding-right: 40px;
+  }
+
+  .welcome-p {
+    width: 500px;
+  }
+  .Menu0 {
+    padding-right: 150px;
+  }
+  .Homestyle-p {
+    width: 90%;
+    max-width: 600px;
+  }
+  .BoxOne .ColorGrey {
+    width: 400px;
+  }
+
+  .MainFlex-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+  }
+  .BoxOne,
+  .BoxTwo,
+  .BoxSix,
+  .BoxEight,
+  .BoxNine {
+    width: calc(50% - 30px);
+    min-width: 320px;
+    max-width: 475px;
+  }
+
+  .Menu-Highlights {
+    margin-right: 0;
+  }
+
+  .Taxes {
+    margin-right: 0;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .MainFlex,
+  .MainFlex-2,
+  .MainFlex-3 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .welcome-p {
+    font-size: 28px;
+  }
+
+  .Med-p {
+    font-size: 12px;
+  }
+
+  .Homestyle-p {
+    position: relative;
+
+    font-size: 13px;
+  }
+
+  .bg {
+    height: 350px;
+  }
+
+  .BoxOne,
+  .BoxTwo,
+  .BoxThree,
+  .BoxFour,
+  .BoxFive,
+  .BoxSix,
+  .BoxEight,
+  .BoxNine {
+    width: calc(100% - 30px);
+  }
+}
