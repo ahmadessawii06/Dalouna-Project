@@ -61,9 +61,4 @@ You can view the live website here:
 **Student ID:** 12429664  
 **GitHub:** [github.com/ahmadessawii06](https://github.com/ahmadessawii06)
 
----
 
-## 📄 License
-
-This project is for educational and academic purposes only.  
-Commercial use or redistribution is not permitted without permission.
